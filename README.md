@@ -67,15 +67,25 @@ Includes source references for interaction information.
 ## 📊 Data Processing Pipeline
 
 Raw DDI Dataset (JSON)
+
 ↓
+
 ast.literal_eval()
+
 ↓
+
 pd.json_normalize()
+
 ↓
+
 Structured DataFrame
+
 ↓
+
 Drug Interaction Search Engine
+
 ↓
+
 Streamlit User Interface
 
 ---
@@ -143,14 +153,20 @@ streamlit run app.py
 ```
 
 ---
-
 ## 🌐 Live Demo
 
-Add your deployed Streamlit link here:
+🔗 Live Application
 
+https://drug-interaction-severity-checker-6yhygpefmtrdjwyslrcx8c.streamlit.app/
 
+The application allows users to:
 
-
+- Select two drugs
+- Detect interaction severity
+- View clinical effects
+- Explore safer alternatives
+- Read management recommendations
+- Access supporting references
 ---
 
 ## 💻 Author
